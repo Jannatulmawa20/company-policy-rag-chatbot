@@ -1,7 +1,7 @@
 #  Company Policy Chatbot (Google Gemini RAG)
 Submission Details
-Candidate Name:Jannatul Mawa
-Date:13 November 2025 
+* **Candidate Name: Jannatul Mawa** 
+* **Date:** 13 November 2025 
 
 This is an AI-powered chatbot designed to answer questions about company policies using Retrieval-Augmented Generation (RAG). It uses Google Gemini as the LLM and Streamlit for the user interface.
 
@@ -22,3 +22,4 @@ This is an AI-powered chatbot designed to answer questions about company policie
 ├── .env                 # API Key configuration file
 
 └── README.md            # Project documentation
+
