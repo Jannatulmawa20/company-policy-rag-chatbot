@@ -1,0 +1,29 @@
+Information & Security Policy
+
+1. Access Control
+- Employees receive access only to necessary systems.
+- Credentials must not be shared with anyone.
+
+2. Password & Authentication
+- Strong passwords are required and must be updated regularly.
+- MFA should be used when available.
+
+3. Device Security
+- Only company-approved devices should be used.
+- Public WiFi must be used with VPN only.
+
+4. Data Handling
+- Confidential files must be stored in secure company storage.
+- Personal accounts must not be used for sharing company data.
+
+5. Email & Phishing
+- Employees must avoid suspicious emails or attachments.
+- Security incidents must be reported immediately.
+
+6. Physical Security
+- Access cards must be used responsibly.
+- Confidential documents should not be left unattended.
+
+7. Incident Response
+- Any breach or data loss must be reported quickly.
+- The IT/Security team will investigate accordingly.
