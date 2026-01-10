@@ -1,0 +1,19 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environment
+venv/
+
+# Environment variables (API key)
+.env
+
+# Auto-generated models (FAISS)
+models/
+
+# Streamlit cache
+.streamlit/
+
+# OS system files
+Thumbs.db
+.DS_Store
