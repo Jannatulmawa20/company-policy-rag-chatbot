@@ -41,16 +41,8 @@ def chunk_text(text, max_len=400):
 
 def embed_texts(text_list):
     
-    vectors = []
-    for text in text_list:
-        if not text.strip():
-            continue
-        result = genai.embed_content(
-            model=EMBED_MODEL,
-            content=text
-        )
-        vectors.append(result["embedding"])
-    return np.array(vectors, dtype="float32")
+    vectors = EMBED_MODEL.encode(text_list, convert_to_numpy=True)
+    return vectors.astype("float32")
 
 
 def ingest_documents():

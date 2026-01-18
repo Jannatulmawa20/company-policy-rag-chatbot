@@ -32,13 +32,7 @@ class RAGEngine:
         if not text or not text.strip():
             raise ValueError("Query cannot be empty.")
 
-        result = genai.embed_content(
-            model=EMBED_MODEL,
-            content=text,
-            task_type="RETRIEVAL_QUERY" 
-        )
-
-        vec = np.array(result["embedding"], dtype="float32").reshape(1, -1)
+        vec = EMBED_MODEL.encode(text, convert_to_numpy=True).astype("float32").reshape(1, -1)
         return vec
 
     # ---------- RETRIEVE ----------
